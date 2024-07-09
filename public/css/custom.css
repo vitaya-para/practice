@@ -1,0 +1,98 @@
+.bg-gradient-primary{background:#28a745}
+
+.btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+* {margin: 0;padding: 0;}
+html{height:100%;padding:0px;margin:0px;}
+body {height:100%;padding:0px;margin:0px;font-family: 'Roboto', sans-serif;font-size: 14px;color: #000;background:#fff;} 
+input, textarea {outline:none;}
+A IMG {border: none;}
+
+.max-width-1260{width:94%;margin:0 auto;max-width:1260px;}
+.max-width-1024{width:94%;margin:0 auto;max-width:1024px;}
+
+.fancybox-button.fancybox-button--play{display:none !important}
+
+.button1{font-size:18px;font-weight:bold;color:#fff !important;display:inline-block;padding:8px 30px;background:#1976d2;border-radius: 5px;-moz-border-radius: 
+5px;-webkit-border-radius: 5px;-khtml-border-radius: 5px;text-decoration:none !important;}
+.button1:hover{opacity: 0.7;filter: alpha(opacity=70);}
+
+
+.site{width:100%;overflow:hidden;background:#d9e8dd;min-height:100vh;}
+	.site-block-line-1{width:320px;overflow:hidden;float:left;padding:150px 40px 30px 40px;}
+	.site-block-line-2{}
+		.site-bl-courses{width:100%;overflow:hidden;padding-left:60px}
+		
+.person-card{width:100%;background:#fff;padding:25px;border-radius: 25px;-moz-border-radius: 25px;-webkit-border-radius: 25px;-khtml-border-radius: 25px;
+text-align:center;margin-bottom:30px;}
+	.person-c-photo{margin-bottom:10px;}
+		.person-c-photo img{width:150px;height:150px;}
+	.person-c-name{font-size:24px;margin-bottom:10px;}
+	.person-c-info{font-size:18px;}	
+
+.main-menu{text-align:center;}		
+	.main-menu ul{margin:0;padding:0;}
+		.main-menu ul li{list-style:none;padding:0;margin:0 0 15px 0;}
+			.main-menu ul li a{color:#000;font-size:24px;text-decoration:underline;}
+			.main-menu ul li a:hover{text-decoration:none;}
+			
+.site-bl-course-item{width:100%;border-left:1px solid #000;}
+	.site-bl-cI{overflow:hidden;position:relative;left:-40px;padding:0 15px 45px 0;}
+		.site-bl-cI-1.disable{background:gray;}
+		.site-bl-cI-1{float:left;overflow:hidden;background:#4cb344;color:#fff;font-size:30px;width:80px;height:80px;line-height:80px;text-align:center;
+border-radius: 80px;-moz-border-radius: 80px;-webkit-border-radius: 80px;-khtml-border-radius: 80px;margin-right:40px;}
+		.site-bl-cI-box{cursor:pointer;float:left;overflow:hidden;width:calc(100% - 120px);border-radius: 15px;-moz-border-radius: 15px;-webkit-border-radius: 15px;
+-khtml-border-radius: 15px;padding:25px;box-shadow: 10px 5px 5px #cccccc;}
+		.site-bl-cI-2{background:#f2f2f2 url('https://open.spbstu.ru/wp-content/uploads/arrow-bottom1.png') right 20px top 50% no-repeat;font-size:20px;font-weight:bold;}
+		.site-bl-cI-3{display:none;background:#d8e8df url('https://open.spbstu.ru/wp-content/uploads/arrow-bottom2.png') right 20px top 50% no-repeat;font-size:18px;}
+			.site-bl-cI-3-block:first-child{margin-top:0}
+			.site-bl-cI-3-block{width:calc(100% - 30px);padding:20px;background:#fff;margin-top:30px;position:relative;z-index:2;}
+				.site-bl-cI-3-b1{font-size:110%;}
+					.site-bl-cI-3-b1 a{color:#000}
+				.site-bl-cI-3-b2{color:gray;margin:5px 0;}
+				.site-bl-cI-3-b3{}
+				.site-bl-cI-3-block a{text-decoration:underline;}
+				.site-bl-cI-3-block a:hover{text-decoration:none;}
+		.site-bl-course-item.active .site-bl-cI-3{display:block;}
+		.site-bl-course-item.active .site-bl-cI-2{display:none;}
+		.site-bl-cI-2:hover{background-color:#ecf7ed;}
+		
+		.site-bl-cI-3-close{width:100%;height:100%;overflow:hidden;position:absolute;z-index:1;}
+		
+@media all and (max-width: 1280px) {
+	.site-block-line-1{width:280px;padding:80px 30px 30px 30px;}
+	.site-block-line-2{width:calc(100% - 280px);padding:80px 30px 30px 70px;}
+	.person-c-photo img{width:120px;height:120px;}
+	.person-c-name{font-size:20px;}
+	.person-c-info{font-size:16px;}	
+	.main-menu ul li{margin:0 0 10px 0;}
+	.main-menu ul li a{font-size:20px;}
+	.site-bl-cI-1{font-size:22px;width:60px;height:60px;line-height:60px;margin-right:30px;}
+	.site-bl-cI{left:-30px;padding:0 10px 35px 0;}
+	.site-bl-cI-box{width:calc(100% - 100px);padding:15px 20px;}
+	.site-bl-cI-2{font-size:18px}
+	.site-bl-cI-3{font-size:16px;}
+	.site-bl-cI-3-block{padding:15px;}
+}
+	
+@media all and (max-width: 960px) {
+	.site{min-height:auto;}
+	.site-block-line-1{width:100%;max-width:300px;margin:0 auto;float:none;padding:30px 20px;}
+	.site-block-line-2{width:100%;min-height:auto;padding:30px 20px 30px 60px;overflow:hidden;background:#fff;border-top-left-radius: 0;-moz-border-top-left-radius: 0;
+-webkit-border-top-left-radius: 0;-khtml-border-top-left-radius: 0;}
+}
+@media all and (max-width: 500px) {
+	.site{min-height:auto;}
+	.site-block-line-1{padding:20px 15px;}
+	.site-block-line-2{padding:20px 0 20px 50px;}
+	.site-bl-cI-box{width:calc(100% - 90px);padding:10px 15px;}
+	.site-bl-cI-1{font-size:16px;width:40px;height:40px;line-height:40px;margin-right:10px;}
+	.site-bl-cI{left:-20px;padding:0 0 25px 0;}
+	.site-bl-cI-2{font-size:17px}
+	.site-bl-cI-3{font-size:15px;}
+	.site-bl-cI-3-block:first-child{margin-top:0}
+	.site-bl-cI-3-block{width:100%;padding:15px;margin-top:10px;}
+}

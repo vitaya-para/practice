@@ -1,0 +1,9 @@
+[
+    {
+        "student_id" : "spbstu12345678",
+        "courses" :
+        [
+            "machine_engieering"
+        ]
+    }
+]
